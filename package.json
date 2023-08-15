@@ -6,7 +6,7 @@
   "scripts": {
     "test": "tsc && jest",
     "build": "tsc",
-    "getChain": "tsc && node ./dist/main.js"
+    "get-chain": "tsc && node ./dist/main.js"
   },
   "repository": {
     "type": "git",
