@@ -1,0 +1,31 @@
+{
+  "name": "pokemon-evolution-chain",
+  "version": "1.0.0",
+  "description": "evolution-chain-function",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "build": "tsc",
+    "getChain": "tsc && node ./dist/main.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nickWoott/pokemon-evolution-chain.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nickWoott/pokemon-evolution-chain/issues"
+  },
+  "homepage": "https://github.com/nickWoott/pokemon-evolution-chain#readme",
+  "dependencies": {
+    "inquirer": "^9.2.10",
+    "jest": "^29.6.2",
+    "ts-jest": "^29.1.1"
+  },
+  "devDependencies": {
+    "@types/inquirer": "^9.0.3",
+    "@types/jest": "^29.5.3",
+    "typescript": "^5.1.6"
+  }
+}
