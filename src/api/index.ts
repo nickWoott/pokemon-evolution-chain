@@ -1,6 +1,8 @@
 import axios from 'axios';
 
-export const getEvolutionChainUrl = async (pokemonName: string) => {
+export const getEvolutionChainUrl = async (
+  pokemonName: string
+): Promise<string> => {
   try {
     const response = await axios.get(
       `https://pokeapi.co/api/v2/pokemon-species/${pokemonName}/`
@@ -13,7 +15,9 @@ export const getEvolutionChainUrl = async (pokemonName: string) => {
   }
 };
 
-export const getPokemonEvolutionChain = async (chainUrl: string) => {
+export const getPokemonEvolutionChain = async (
+  chainUrl: string
+): Promise<object> => {
   try {
     const response = await axios.get(chainUrl);
 

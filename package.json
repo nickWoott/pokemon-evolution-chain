@@ -4,7 +4,7 @@
   "description": "evolution-chain-function",
   "main": "index.js",
   "scripts": {
-    "test": "jest",
+    "test": "tsc && jest",
     "build": "tsc",
     "getChain": "tsc && node ./dist/main.js"
   },
